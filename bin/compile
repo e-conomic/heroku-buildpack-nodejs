@@ -164,7 +164,7 @@ export CPATH="$INCLUDE_PATH"
 export CPPPATH="$INCLUDE_PATH"
 
 # install dependencies with npm
-echo "-----> Installing dependencies with npm"
-run_npm "install --production"
-run_npm "rebuild"
-echo "Dependencies installed" | indent
+echo "-----> Skip Installing dependencies with npm"
+# run_npm "install --production"
+# run_npm "rebuild"
+echo "Skip Dependencies installed" | indent
